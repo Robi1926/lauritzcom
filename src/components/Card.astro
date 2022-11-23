@@ -1,0 +1,16 @@
+---
+const { titel, beskrivelse, deluxe } = Astro.props;
+---
+
+<article>
+  <h3>{titel}</h3>
+  <img src="" alt="" />
+  <p>{beskrivelse}</p>
+
+  {deluxe == true && <p>Deluxe</p>}
+</article>
+
+<style>
+  article {
+  }
+</style>
